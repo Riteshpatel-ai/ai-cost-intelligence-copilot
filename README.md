@@ -235,8 +235,8 @@ MIT License — see [LICENSE](LICENSE)
 
 ## 📞 Contact
 
-- 📧 Email: info@costintelligence.ai
-- 🌐 Website: [costintelligence.ai](https://costintelligence.ai)
+- 📧 Email: Ritesh9878patel@gmail.com
+- 🌐 Website: https://riteshpatel-ai.github.io/profile
 
 ---
 
