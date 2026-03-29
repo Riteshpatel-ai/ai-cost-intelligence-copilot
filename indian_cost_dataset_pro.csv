@@ -1,0 +1,83 @@
+Tool,Cost_INR,Usage
+Microsoft Office 365 Business Premium,45000,850
+MS Office Premium (Duplicate Vendor),47000,820
+Slack Enterprise Grid,35000,920
+Slack Standard,30000,120
+Slack Pro Workspace (Hidden Duplicate),34000,110
+AWS EC2 Instances,125000,780
+AWS EC2 Reserved (Overlap),115000,300
+Azure Virtual Machines,95000,540
+Google Cloud India,70000,680
+Zoho One,42000,780
+Zoho CRM Enterprise,38000,650
+Freshworks CRM,36000,430
+HubSpot Enterprise,95000,450
+Salesforce Enterprise,89000,650
+Zoom India Pro,25000,870
+Google Meet Enterprise,20000,920
+Webex India,30000,560
+GoToMeeting India,18000,230
+Jira Software,22000,720
+Jira Service Management (Overlap),26000,340
+Confluence,18000,480
+Notion Enterprise,20000,560
+Notion AI Addon (Hidden Cost),15000,120
+Asana Business,28000,340
+ClickUp Business,22000,450
+Monday.com India,26000,230
+Tally ERP 9,35000,850
+Busy Accounting Software,22000,780
+Marg ERP,26000,670
+QuickBooks India,30000,560
+Xero India (Overlap),28000,450
+ClearTax Business,28000,450
+GSTHero Compliance,15000,560
+Khatabook Business,12000,890
+Zoho Books,24000,670
+Razorpay Payment Gateway,55000,920
+Paytm Business API,48000,890
+Stripe India,28000,780
+PayPal India,18000,670
+CCAvenue Payment Gateway,25000,450
+Instamojo Business,12000,560
+AWS S3 India,35000,910
+AWS Lambda,45000,890
+DigitalOcean India,28000,670
+Hostinger Business Hosting,12000,780
+Bluehost India,15000,670
+GoDaddy Hosting,18000,560
+Cloudflare India,15000,890
+VPN India Enterprise,28000,560
+Okta Identity India,52000,780
+1Password Business,18000,670
+LastPass Business,15000,780
+Zoho People HRMS,26000,560
+Keka HR Software,32000,670
+Darwinbox HRMS,65000,450
+GreytHR,28000,780
+ADP India Payroll,85000,340
+RazorpayX Payroll,30000,670
+Figma Professional,28000,230
+Canva Pro India,12000,120
+Adobe Creative Cloud India,65000,340
+CorelDRAW Suite,28000,230
+Mailchimp India,18000,780
+Sendinblue India,15000,670
+WhatsApp Business API,22000,950
+Exotel Cloud Telephony,26000,780
+MyOperator Call System,24000,670
+Knowlarity Telephony,28000,560
+Freshdesk Support Suite,34000,450
+Zoho Desk,28000,560
+Zendesk Enterprise,45000,234
+Tawk.to (Free),0,890
+Snowflake Enterprise,78000,234
+Databricks Platform,89000,123
+Splunk Enterprise,156000,234
+New Relic Pro,45000,567
+DataDog Infrastructure,67000,678
+PagerDuty Professional,34000,456
+MongoDB Atlas,34000,567
+Redis Enterprise,28000,345
+Workday HCM,125000,234
+BambooHR,28000,456

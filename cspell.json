@@ -1,0 +1,16 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "words": [
+    "overutilized",
+    "shadcn",
+    "Zustand",
+    "Topbar"
+  ],
+  "ignorePaths": [
+    "**/.next/**",
+    "**/node_modules/**",
+    "**/.venv/**",
+    "**/__pycache__/**"
+  ]
+}

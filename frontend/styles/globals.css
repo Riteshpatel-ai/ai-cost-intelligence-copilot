@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap');
+@import 'tailwindcss';
+
+:root {
+  color-scheme: light;
+  --bg: #f4f7fb;
+  --surface: #ffffff;
+  --surface-soft: #edf3fa;
+  --surface-accent: #0b1f40;
+  --text: #101d36;
+  --text-muted: #5e6f88;
+  --border: #d7e4f6;
+  --brand: #0f6fff;
+  --brand-strong: #0a59cc;
+  --success: #13a772;
+  --warning: #d18c16;
+  --danger: #d63c56;
+  --bg-glow-a: rgba(15, 111, 255, 0.12);
+  --bg-glow-b: rgba(19, 167, 114, 0.1);
+  --bg-gradient-start: #f9fbff;
+}
+
+[data-theme='executive-dark'],
+[data-theme='dark'] {
+  color-scheme: dark;
+  --bg: #0b1323;
+  --surface: #111b2f;
+  --surface-soft: #16243d;
+  --surface-accent: #d8e4ff;
+  --text: #e7efff;
+  --text-muted: #9db0d1;
+  --border: #273a5a;
+  --brand: #5ea0ff;
+  --brand-strong: #3f89f3;
+  --success: #37c38f;
+  --warning: #e3a73c;
+  --danger: #f16b83;
+  --bg-glow-a: rgba(29, 86, 171, 0.28);
+  --bg-glow-b: rgba(18, 119, 89, 0.22);
+  --bg-gradient-start: #0f182b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#__next {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Outfit', 'Segoe UI', sans-serif;
+  color: var(--text);
+  background:
+    radial-gradient(circle at 5% 10%, var(--bg-glow-a), transparent 30%),
+    radial-gradient(circle at 87% 7%, var(--bg-glow-b), transparent 30%),
+    linear-gradient(155deg, var(--bg-gradient-start) 0%, var(--bg) 100%);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Space Grotesk', 'Outfit', sans-serif;
+  margin: 0;
+}
+
+.card {
+  border: 1px solid var(--border);
+  background: color-mix(in srgb, var(--surface) 86%, transparent);
+  border-radius: 20px;
+  box-shadow: 0 12px 30px rgba(4, 18, 44, 0.08);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border-radius: 999px;
+  padding: 7px 12px;
+  font-size: 12px;
+  font-weight: 700;
+  border: 1px solid var(--border);
+  background: var(--surface-soft);
+}
+
+.label {
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  font-weight: 700;
+}
+
+@keyframes riseIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px) scale(0.99);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.rise {
+  animation: riseIn 0.4s ease-out;
+}
